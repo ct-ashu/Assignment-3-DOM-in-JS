@@ -8,7 +8,7 @@
 
         submitButton.addEventListener('click', function() {
             const inputValue = inputField.value;
-            document.getElementById('demo').innerHTML = "Hello,  " + inputValue;
+            document.getElementById('demo').innerHTML = "Hello,  " + inputValue + " !";
         });
     });
 
@@ -22,7 +22,7 @@
     const blue = document.getElementById('blue');
             blue.addEventListener('click', function() {
                 blue.style.backgroundColor = 'blue';
-                blue.style.color = 'white';
+                blue.style.color = 'black';
                 blue.style.fontSize = '20px';
     });
 
